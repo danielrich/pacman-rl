@@ -49,14 +49,14 @@ def question3d():
 def question3e():
   answerDiscount = 0.9
   answerNoise = 0.4
-  answerLivingReward = 1.0
+  answerLivingReward = 10.0
   return answerDiscount, answerNoise, answerLivingReward
   # If not possible, return 'NOT POSSIBLE'
 
 def question6():
   answerEpsilon = None
   answerLearningRate = None
-  return answerEpsilon, answerLearningRate
+  return 'NOT POSSIBLE'
   # If not possible, return 'NOT POSSIBLE'
   
 if __name__ == '__main__':
